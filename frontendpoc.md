@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://techvana.org.nz/wp-content/uploads/2014/09/front-end-logo-e1462601868312-768x179.png" alt="Front-End Logo" width="250"/>
+</p>
+
+
 # POC for Frontend
 
 ### This document provides Proof-of-Concept (POC) of frontend Setup and run the App in detail.
