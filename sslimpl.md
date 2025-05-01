@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c84c3e52-5ae3-40e2-a88e-6a36754af5f1" alt="SSL Screenshot" width="250"/>
+</p>
+
 
 # SSL Implementation
 
@@ -160,4 +164,5 @@ The domain now uses SSL encryption provided by **Let’s Encrypt**, improving se
 | **Reference Name**  | **Description**                            | **Link**                |
 |---------------------|--------------------------------------------|-------------------------|
 | SSL POC             | POC on how you can set up SSL for your Domain | SSL POC                 |
-| SSL Documentation   | Detailed documentation on SSL              | SSL Documentation       |
+| SSL Documentation   | Detailed documentation on SSL              | [SSL Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-121/domain_security/ssl/ssl_document/README.md) |
+
