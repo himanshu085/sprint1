@@ -2,18 +2,16 @@
   <img src="https://techvana.org.nz/wp-content/uploads/2014/09/front-end-logo-e1462601868312-768x179.png" alt="Front-End Logo" width="250"/>
 </p>
 
-
 # POC for Frontend
 
 ### This document provides Proof-of-Concept (POC) of frontend Setup and run the App in detail.
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
 |------------|----------------|-------------|---------------------|--------------------|--------------------|-----------------|
-| Himanshu   | 2025-04-14     | 1.0         | Himanshu            | 2025-04-27         | Internal Reviewer  | Komal Jaiswal   |
-| Himanshu   | 2025-04-14     |             |                     |                    | L0                 | Imran           |
-| Himanshu   | 2025-04-14     |             |                     |                    | L1                 | Shashi          |
-| Himanshu   | 2025-04-14     |             |                     |                    | L2                 | Mahesh Kumar    |
-
+| Himanshu   | 2025-04-27     | 1.0         | Himanshu            | 2025-04-27         | Internal Reviewer  | Komal Jaiswal   |
+| Himanshu   | 2025-04-27     |             |                     |                    | L0                 | Imran           |
+| Himanshu   | 2025-04-27     |             |                     |                    | L1                 | Shashi          |
+| Himanshu   | 2025-04-27     |             |                     |                    | L2                 | Mahesh Kumar    |
 
 ---
 
