@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*bXftjehuGYhy16uk.jpg" alt="Demo Image" width="250"/>
+  <img src="https://miro.medium.com/v2/resize:fit:820/format:webp/0*bXftjehuGYhy16uk.jpg" alt="Demo Image" width="350"/>
 </p>
 
 # Naming Conventions Documentation
