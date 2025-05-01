@@ -141,6 +141,7 @@ sudo systemctl reload nginx
 ### 6. Validate SSL
 
 Open `https://cloudninjahp.publicvm.com/` in a browser and ensure it shows a secure lock icon.
+
 ![Screenshot from 2025-05-02 01-26-42](https://github.com/user-attachments/assets/9b86dc98-54d5-42d9-9737-e4ea7ca68560)
 
 
