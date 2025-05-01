@@ -1,6 +1,9 @@
+<p align="center">
+  <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="GitHub Logo" width="250"/>
+</p>
+
+
 # **Authentication Document for VCS**
-
-
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
 |------------|----------------|-------------|---------------------|--------------------|--------------------|-----------------|
