@@ -107,9 +107,9 @@ sudo nano /var/www/html/cloudninjahp.publicvm.com/index.html
 ```sh
 sudo mkdir -p /var/log/nginx/cloudninjahp.publicvm.com
 ```
-### Reload Nginx
+### Test configuration
 ```sh
-sudo systemctl reload nginx
+sudo nginx -t
 ```
 ![Screenshot from 2025-05-02 00-43-31-Photoroom](https://github.com/user-attachments/assets/d9ed25de-14c2-4656-b076-3b9c2e98851f)
 
