@@ -41,6 +41,77 @@ Update system packages and install Certbot.
 
 Check Nginx to ensure your domain is being served correctly.
 
+```sh
+sudo nano /etc/nginx/sites-available/default
+```
+### Now Adding this Content as given below:
+
+```sh
+server {
+    listen 80;
+    server_name cloudninjahp.publicvm.com;
+    client_max_body_size 100M;
+
+    index index.html index.php;
+    root /var/www/html/cloudninjahp.publicvm.com/;
+
+    access_log  /var/log/nginx/cloudninjahp.publicvm.com/access.log;
+    error_log   /var/log/nginx/cloudninjahp.publicvm.com/error.log;
+}
+```
+### Create web root dir
+```sh
+sudo mkdir -p /var/www/html/cloudninjahp.publicvm.com
+```
+
+### Place your HTML file
+```sh
+sudo nano /var/www/html/cloudninjahp.publicvm.com/index.html
+```
+### Now Paste the HTML code
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to CloudNinja</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding-top: 15%;
+    }
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      margin-bottom: 0.3em;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    p {
+      font-size: 1.5em;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #000000;
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME TO CLOUDNINJA PAGE</h1>
+  <p>Maintained by Himanshu Parashar</p>
+</body>
+</html>
+```
+### Create log directories
+```sh
+sudo mkdir -p /var/log/nginx/cloudninjahp.publicvm.com
+```
+### Reload Nginx
+```sh
+sudo systemctl reload nginx
+```
+![Screenshot from 2025-05-02 00-43-31-Photoroom](https://github.com/user-attachments/assets/d9ed25de-14c2-4656-b076-3b9c2e98851f)
+
 ### 3. Obtain SSL Certificate
 
 Run the Certbot command for your domain:
