@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://cdn.dribbble.com/users/763363/screenshots/3557947/attachments/791768/fullstack-logo-dark.png" alt="Fullstack Logo" width="400"/>
+  <img src="https://github.com/user-attachments/assets/082af180-a168-4bfc-9f2f-5113d03382da" alt="Screenshot from 2025-05-03 20-01-32" width="400"/>
 </p>
-
 
 # Fullstack Documentation
 
