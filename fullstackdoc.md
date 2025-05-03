@@ -128,34 +128,29 @@ Database management is responsible for storing, accessing, and managing data for
 
 ## User Flow
 
-### User Registration Flow
-
-- User submits the registration form.
-- Frontend validates the input.
-- The request is sent to the backend.
-- The backend processes the registration and stores the data in the database.
-- A response is sent back to the frontend.
-
+| **User Registration Flow** |                
+|---------------|
+| 1. User submits the registration form. |     
+| 2. Frontend validates the input. |                                     
+| 3. The request is sent to the backend. |                       
+| 4. The backend processes the registration and stores the data in the database. |        
+| 5. A response is sent back to the frontend. |                                      
 ---
-
-### User Login Flow
-
-- User submits the login form.
-- Frontend validates the input.
-- The request is sent to the backend.
-- The backend authenticates the user.
-- A response is sent back to the frontend with a token.
-
+| **User Login Flow** |                                                  
+|---------------------|                                      
+| 1. User submits the login form. |                                       
+| 2. Frontend validates the input. |                                           
+| 3. The request is sent to the backend. |                                     
+| 4. The backend authenticates the user. |                                    
+| 5. A response is sent back to the frontend with a token. |            
 ---
-
-### Data Processing Flow
-
-- Data is submitted from the frontend.
-- The backend processes the data.
-- Data is validated and transformed.
-- Processed data is stored in the database.
-- Confirmation is sent back to the frontend.
-
+| **Data Processing Flow** |                                                                                        
+|---------------------------|
+| 1. Data is submitted from the frontend. |                                                               
+| 2. The backend processes the data. |                                                                         
+| 3. Data is validated and transformed. |                                                                
+| 4. Processed data is stored in the database. |                                                           
+| 5. Confirmation is sent back to the frontend. |  
 ---
 
 ## Conclusion
