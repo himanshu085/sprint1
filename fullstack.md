@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/082af180-a168-4bfc-9f2f-5113d03382da" alt="Screenshot from 2025-05-03 20-01-32" width="400"/>
+</p>
+
 # Fullstack Documentation
 
 ## Author
@@ -10,21 +14,25 @@
 | Himanshu   | 2025-05-02     |             |                     |                    | L2                 | Mahesh Kumar    |
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Overall Component Architecture Flow](#overall-component-architecture-flow)
-   * [Frontend Flow](#frontend-flow)
-   * [Backend Management](#backend-management)
-      * [Employee API](#1-employee-api)
-      * [Salary API](#2-salary-api)
-      * [Attendance API](#3-attendance-api)
-    * [Middleware](#middleware)
-    * [Database Management](#database-management)
-3. [User Flow](#user-flow)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [Refrences](#references)
+
+- [Introduction](#introduction)
+- [OT-Microservices System Architecture Flow](#ot-microservices-system-architecture-flow)
+  - [Frontend Flow](#frontend-flow)
+  - [Backend Management](#backend-management)
+    - [Employee API](#employee-api)
+    - [Salary API](#salary-api)
+    - [Attendance API](#attendance-api)
+  - [Middleware](#middleware)
+  - [Database Management](#database-management)
+- [User Flow](#user-flow)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
+
+---
 
 ## Introduction
+
 **Full Stack Development** refers to building a complete web application that encompasses the front end, back end, and database management.
 
 - **Front End**: This is the user-facing part of the application — everything users see and interact with. It focuses on visual design, user experience, and ensuring the interface is intuitive and responsive.
@@ -34,107 +42,155 @@
 - **Database Management**: This involves storing, organizing, and managing the application’s data. It ensures data is efficiently stored, easily accessible, and reliably maintained.
 
 ---
-## Overall Component Architecture Flow
+
+## OT-Microservices System Architecture Flow
+
 ### Frontend Flow
-Frontend Web is a REACTJS based application that is the primary user-interface for OT-Microservices stack.The app is designed for cross-platform fuctionality and requires only the presence of javascript runtime modules.The ReactJS based web framework facilitates complete web page based operations.
-## Application-Flow
-The frontend application have dependencies on other REST API of OT-Microservices.
-<img width="1412" alt="Frontend" src="https://github.com/user-attachments/assets/f63157ad-c346-44d9-a906-e02503421a30" />
-To run the application successfully, These things should be configured
-For Refrence Links Below :-
-* [Frontend POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu-SCRUM-96/ot_ms_understanding/application/frontend/setup/README.md)
-* [Employee API](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-86/ot_ms_understanding/application/employee/documentation/README.md)
-* [Attendance API](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Pravesh-SCRUM-4/OT%20MS%20Understanding/Applications/Attendance/Documentation/README.md)
-* [Salary API](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Mohit-SCRUM-9/OT%20MS%20Understanding/Applications/Salary/Documentation%20/README.md)
+
+The frontend application is a **ReactJS-based** web interface that serves as the primary user interface for the OT-Microservices stack. It is designed for **cross-platform functionality** and requires only a JavaScript runtime environment to operate. The ReactJS framework enables a fully interactive, single-page application experience, supporting seamless and efficient user interactions across devices.
+
+The frontend application has dependencies on other REST APIs of OT-Microservices.
+
+![Screenshot from 2025-05-03 20-07-16](https://github.com/user-attachments/assets/23f802a1-0516-4c0c-866b-818c8a839eaa)
+
+
+To run the application successfully, these things should be configured:
+
+- [Frontend POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu-SCRUM-96/ot_ms_understanding/application/frontend/setup/README.md)
+- [Employee DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-86/ot_ms_understanding/application/employee/documentation/README.md)
+- [Attendance DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-72/ot_ms_understanding/application/attendance/documentation/README.md)
+- [Salary DOC](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Mohit-SCRUM-9/OT%20MS%20Understanding/Applications/Salary/Documentation%20/README.md)
+
 ---
+
 ## Backend Management
-#### 1. Employee-API
-The Employee REST API is a Go-based microservice that manages all employee-related transactions within the OT-Microservices stack. It is fully platform-independent, meaning it can run on any type of operating system or platform.
-<img width="1424" alt="Employee" src="https://github.com/user-attachments/assets/5b874918-cdca-4860-81b7-f378d7e9d9da" />
-Create this same as above.
-Pre-Requisites
-For running the application, we need following things configured:
-For Refrence Links Below :-
-* [Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-86/ot_ms_understanding/application/employee/documentation/README.md)
-* [Employee POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Tharik_SCRUM-83/ot_ms_understanding/application/employee/setup/README.md) 
-* [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-110/ot_ms_understanding/software/database/scylladb/setup/README.md)
-* [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
+
+### Employee API
+
+The Employee REST API is a Go-based microservice responsible for managing employee-related workflows within the OT-Microservices stack. It is fully platform-independent, capable of operating across various operating systems and platforms.
+
+
+![Screenshot from 2025-05-03 20-05-05](https://github.com/user-attachments/assets/6811a34e-cd66-4fd6-9e06-c996d02b56c3
+
+
+Pre-Requisites for running the application:
+
+- [Employee Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-86/ot_ms_understanding/application/employee/documentation/README.md)
+- [Employee POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Tharik_SCRUM-83/ot_ms_understanding/application/employee/setup/README.md)
+- [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-110/ot_ms_understanding/software/database/scylladb/setup/README.md)
+- [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
+
 ---
-#### 2. Salary API
-The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
-<img width="1424" alt="Salary" src="https://github.com/user-attachments/assets/df213ffb-2d1b-4ae7-85b0-963a3a151a55" />
-We only need maven as build tool, but for running the application following things are required
-For Refrence Link are below :-
-* [Documentation](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Mohit-SCRUM-9/OT%20MS%20Understanding/Applications/Salary/Documentation%20/README.md)
-* [Salary POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-93/ot_ms_understanding/application/salary/setup/README.md)
-* [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-110/ot_ms_understanding/software/database/scylladb/setup/README.md)
-* [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
-* [Maven](https://github.com/Cloud-NInja-snaatak/Documentation/blob/shubham_scrum29/commonstack/applications/java/pom/sop.md)
+
+### Salary API
+
+The Salary API is a Java-based microservice responsible for managing salary-related transactions and data within the OT-Microservices stack. It offers platform independence, allowing it to operate across various operating systems, though a Java Runtime Environment (JRE) is necessary for its execution.
+
+
+![Screenshot from 2025-05-03 20-06-04](https://github.com/user-attachments/assets/cda1a896-da57-4e4c-8666-598816d0c51f)
+
+
+Maven is the only required build tool, though the following components are essential for running the application:
+
+
+- [Salary Documentation](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Mohit-SCRUM-9/OT%20MS%20Understanding/Applications/Salary/Documentation%20/README.md)
+- [Salary POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-93/ot_ms_understanding/application/salary/setup/README.md)
+- [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-110/ot_ms_understanding/software/database/scylladb/setup/README.md)
+- [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
+- [Maven](https://github.com/Cloud-NInja-snaatak/Documentation/blob/shubham_scrum29/commonstack/applications/java/pom/sop.md)
+
 ---
-#### 3. Attendance API
-The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
-<img width="1412" alt="Attendance" src="https://github.com/user-attachments/assets/d5c86c62-9139-4a82-97ec-6efbd653e643" />
-To run the application successfully, we need these things configured
-PostgreSQL as a primary database for storing all the attendance records
-Redis as cache management middleware for storing all API response
-Below Have Refrence Links in detail :-
-* [Atttendance Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-72/ot_ms_understanding/application/attendance/documentation/README.md) 
-* [Attendance POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-70/ot_ms_understanding/application/attendance/setup/README.md) 
-* [PostgreSQL](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-108/ot_ms_understanding/software/database/postgressql/setup/README.md)
-* [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
-* [Poetry](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_scrum18/commonstack/applications/python/poetry/sop.md)
-* [Liquibase](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-116/db_change_management/db_release_management/poc_liquibase/README.md)
+
+### Attendance API
+
+Built using Python, the Attendance REST API handles all attendance-related processes within the OT-Microservices stack. This cross-platform application only requires a Python runtime environment to function.
+
+
+![Screenshot from 2025-05-03 20-05-35](https://github.com/user-attachments/assets/98957e35-d7cc-48ab-bf30-1a48a56c381c)
+
+
+Successful execution of the application requires the following configurations:
+
+
+- [Atttendance Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-72/ot_ms_understanding/application/attendance/documentation/README.md)
+- [Attendance POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-70/ot_ms_understanding/application/attendance/setup/README.md)
+- [PostgreSQL](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-108/ot_ms_understanding/software/database/postgressql/setup/README.md)
+- [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
+- [Poetry](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_scrum18/commonstack/applications/python/poetry/sop.md)
+- [Liquibase](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-116/db_change_management/db_release_management/poc_liquibase/README.md)
+
 ---
+
 ### Middleware
-Middleware acts as a bridge between the frontend and backend, enabling communication and optimizing performance. In the OT-Microservices, Redis is used as a caching middleware to store frequently accessed data, such as employee, salary and attendance records, reducing database load and improving response times.
-For Refrence Links Below :-
-* [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/tree/SHREY-SCRUM-107/ot_ms_understanding/software/middleware/redis/documentation)
+
+Middleware acts as a connector between the frontend and backend, facilitating efficient communication and optimizing performance. In OT-Microservices, Redis is used as a caching layer to hold frequently accessed data, like employee, salary, and attendance records, thereby reducing the strain on the database and enhancing response speed.
+
+
+- [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/tree/SHREY-SCRUM-107/ot_ms_understanding/software/middleware/redis/documentation)
+
 ---
+
 ### Database Management
-Database management is responsible for storing, accessing, and managing data for an application. It involves tasks such as creating databases, maintaining their performance, and optimizing them to ensure efficient data handling.
-For Refrence Links Below :-
-* [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-111/ot_ms_understanding/software/database/scylladb/documentation/README.md)
-    *  ScyllaDB is the main NoSQL database in the OT-Microservices stack, used to store **`employee`** and **`salary`** data. It is highly scalable and designed for fast performance in large applications.
-  
-* [PostgreSQL](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Tharik_SCRUM-109/ot_ms_understanding/software/database/postgressql/documentation/README.md)
-  
-   *  PostgreSQL is the relational database in the OT-Microservices stack, used for storing **`attendance`** records. It is reliable, supports complex queries, and ensures data consistency.
+
+Database management focuses on storing, accessing, and organizing application data. It includes tasks such as setting up databases, ensuring optimal performance, and maintaining them for reliable and efficient data handling.
+
+- [ScyllaDB DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-111/ot_ms_understanding/software/database/scylladb/documentation/README.md)  
+
+   ScyllaDB serves as the primary NoSQL database within the OT-Microservices stack, storing **`employee`** and **`salary`** data. It is engineered for high scalability and delivers fast performance, making it ideal for large-scale applications.
+
+- [PostgreSQL DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Tharik_SCRUM-109/ot_ms_understanding/software/database/postgressql/documentation/README.md)  
+
+  PostgreSQL serves as the relational database within the OT-Microservices stack, dedicated to storing **`attendance`** records. It offers robust reliability, supports complex queries, and ensures strong data consistency.
+
 ---
-### User Flow
+
+## User Flow
+
 | **User Registration Flow** |                
-|---------------|
-| 1. User submits the registration form. |     
-| 2. Frontend validates the input. |                                     
-| 3. The request is sent to the backend. |                       
-| 4. The backend processes the registration and stores the data in the database. |        
-| 5. A response is sent back to the frontend. |                                      
+|----------------------------|
+| 1. The user fills out and submits the registration form. |     
+| 2. The frontend validates the provided input. |                                     
+| 3. The validated request is forwarded to the backend. |                       
+| 4. The backend processes the registration and stores the user data in the database. |        
+| 5. A success response is returned to the frontend. |                                      
 ---
+
 | **User Login Flow** |                                                  
 |---------------------|                                      
-| 1. User submits the login form. |                                       
-| 2. Frontend validates the input. |                                           
-| 3. The request is sent to the backend. |                                     
-| 4. The backend authenticates the user. |                                    
-| 5. A response is sent back to the frontend with a token. |            
+| 1. The user submits the login form with credentials. |                                       
+| 2. The frontend validates the input data. |                                           
+| 3. The request is forwarded to the backend. |                                     
+| 4. The backend authenticates the user credentials. |                                    
+| 5. A response containing an authentication token is returned to the frontend. |            
 ---
+
 | **Data Processing Flow** |                                                                                        
 |---------------------------|
-| 1. Data is submitted from the frontend. |                                                               
-| 2. The backend processes the data. |                                                                         
-| 3. Data is validated and transformed. |                                                                
-| 4. Processed data is stored in the database. |                                                           
-| 5. Confirmation is sent back to the frontend. |      
-                                                 
+| 1. Data is submitted from the frontend interface. |                                                               
+| 2. The backend processes the incoming data. |                                                                         
+| 3. The data is validated and transformed as required. |                                                                
+| 4. The processed data is stored in the database. |                                                           
+| 5. A confirmation response is sent back to the frontend. |  
 ---
+
+
 ## Conclusion
-This document gives a clear overview of full-stack development for the OT-MICROSERVICES project. It explains how the front end middleware and back end work together and shares important practices for building strong and easy-to-maintain applications. 
+
+This document provides a comprehensive overview of full-stack development within the **OT-Microservices** project. It outlines the integration of the **frontend**, **middleware**, and **backend** components, and highlights key practices for building robust and maintainable applications.
+
+
+---
 
 ## Contact Information
+
 | Name              | Email Address                                   |
-|-------------------|--------------------------------------------------|
-| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co         |
+|-------------------|-------------------------------------------------|
+| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co        |
+
+---
 
 ## References
-| **Link**                                                                                                                     | **Description**                                    |
-|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [API Repo Link](https://github.com/OT-MICROSERVICES) | APIs Documentation    |
+
+| **Link** | **Description** |
+|----------|-----------------|
+| [API Repo Link](https://github.com/OT-MICROSERVICES) | APIs Documentation |
