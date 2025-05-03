@@ -23,6 +23,7 @@
 5. [Conclusion](#conclusion)
 6. [Contact Information](#contact-information)
 7. [Refrences](#references)
+
 ## Introduction
 Full Stack Development is the process of creating a complete web application that includes front-end, back-end, and database management. 
 - **Front-End**: This is what users see and interact with on the website. It focuses on the look and feel, making sure the site is easy to use and looks good.
@@ -75,9 +76,9 @@ To run the application successfully, we need these things configured
 PostgreSQL as a primary database for storing all the attendance records
 Redis as cache management middleware for storing all API response
 Below Have Refrence Links in detail :-
-* [Documentation](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Pravesh-SCRUM-4/OT%20MS%20Understanding/Applications/Attendance/Documentation/README.md) 
+* [Atttendance Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-72/ot_ms_understanding/application/attendance/documentation/README.md) 
 * [Attendance POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-70/ot_ms_understanding/application/attendance/setup/README.md) 
-* [PostgreSQL](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Pooja-SCRUM-14/OT%20MS%20Understanding/Database/PostgreSQL/POC/Readme.md)
+* [PostgreSQL](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-108/ot_ms_understanding/software/database/postgressql/setup/README.md)
 * [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
 * [Poetry](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_scrum18/commonstack/applications/python/poetry/sop.md)
 * [Liquibase](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-116/db_change_management/db_release_management/poc_liquibase/README.md)
