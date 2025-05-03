@@ -50,7 +50,8 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
 
 The frontend application has dependencies on other REST APIs of OT-Microservices.
 
-![Frontend](https://github.com/user-attachments/assets/f63157ad-c346-44d9-a906-e02503421a30)
+![Screenshot from 2025-05-03 20-07-16](https://github.com/user-attachments/assets/23f802a1-0516-4c0c-866b-818c8a839eaa)
+
 
 To run the application successfully, these things should be configured:
 
@@ -67,7 +68,8 @@ To run the application successfully, these things should be configured:
 
 The Employee REST API is a Go-based microservice that manages all employee-related transactions within the OT-Microservices stack. It is fully platform-independent, meaning it can run on any type of operating system or platform.
 
-![Employee](https://github.com/user-attachments/assets/5b874918-cdca-4860-81b7-f378d7e9d9da)
+![Screenshot from 2025-05-03 20-05-05](https://github.com/user-attachments/assets/6811a34e-cd66-4fd6-9e06-c996d02b56c3
+
 
 Pre-Requisites for running the application:
 
@@ -82,7 +84,8 @@ Pre-Requisites for running the application:
 
 The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
 
-![Salary](https://github.com/user-attachments/assets/df213ffb-2d1b-4ae7-85b0-963a3a151a55)
+![Screenshot from 2025-05-03 20-06-04](https://github.com/user-attachments/assets/cda1a896-da57-4e4c-8666-598816d0c51f)
+
 
 We only need Maven as build tool, but for running the application following things are required:
 
@@ -98,7 +101,8 @@ We only need Maven as build tool, but for running the application following thin
 
 The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
 
-![Attendance](https://github.com/user-attachments/assets/d5c86c62-9139-4a82-97ec-6efbd653e643)
+![Screenshot from 2025-05-03 20-05-35](https://github.com/user-attachments/assets/98957e35-d7cc-48ab-bf30-1a48a56c381c)
+
 
 To run the application successfully, we need these things configured:
 
