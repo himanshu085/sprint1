@@ -59,7 +59,7 @@ To run the application successfully, these things should be configured:
 - [Frontend POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu-SCRUM-96/ot_ms_understanding/application/frontend/setup/README.md)
 - [Employee DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-86/ot_ms_understanding/application/employee/documentation/README.md)
 - [Attendance DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-72/ot_ms_understanding/application/attendance/documentation/README.md)
-- [Salary DOC](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Mohit-SCRUM-9/OT%20MS%20Understanding/Applications/Salary/Documentation%20/README.md)
+- [Salary DOC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/anitha-SCRUM-95/ot_ms_understanding/application/salary/documentation/README.md)
 
 ---
 
@@ -93,7 +93,7 @@ The Salary API is a Java-based microservice responsible for managing salary-rela
 Maven is the only required build tool, though the following components are essential for running the application:
 
 
-- [Salary Documentation](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Mohit-SCRUM-9/OT%20MS%20Understanding/Applications/Salary/Documentation%20/README.md)
+- [Salary Documentation](https://github.com/Cloud-NInja-snaatak/Documentation/blob/anitha-SCRUM-95/ot_ms_understanding/application/salary/documentation/README.md)
 - [Salary POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-93/ot_ms_understanding/application/salary/setup/README.md)
 - [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-110/ot_ms_understanding/software/database/scylladb/setup/README.md)
 - [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/rajeev_SCRUM-106/ot_ms_understanding/software/middleware/redis/setup/README.md)
