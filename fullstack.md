@@ -51,7 +51,7 @@ The frontend application is a **ReactJS-based** web interface that serves as the
 
 The frontend application has dependencies on other REST APIs of OT-Microservices.
 
-![Screenshot from 2025-05-03 20-07-16](https://github.com/user-attachments/assets/23f802a1-0516-4c0c-866b-818c8a839eaa)
+![Screenshot from 2025-05-03 20-07-16](https://github.com/user-attachments/assets/59ea43b1-adef-4001-8921-08a02779b1d6)
 
 
 To run the application successfully, these things should be configured:
