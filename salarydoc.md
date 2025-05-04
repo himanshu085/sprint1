@@ -41,7 +41,8 @@ The primary purpose of the Salary API is to streamline salary management process
 
 ## Architecture
 
-![Architecture Diagram](Screenshot%202024-11-13%20at%2011%2047%2043%20PM)
+![Screenshot from 2025-05-03 20-06-04](https://github.com/user-attachments/assets/e30aef13-1660-47ea-b063-0bf0e8ac9362)
+
 
 ## ScyllaDB
 
