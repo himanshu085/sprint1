@@ -77,7 +77,6 @@ The primary purpose of the Salary API is to streamline salary management process
 - Leaderboards for gaming/social media platforms
 - Real-time analytics and event data aggregation (monitoring, ad tech)
 
-![Redis Image](9c501ae0-6878-464e-bb4c-f61b40c6f8be)
 
 ## Migrate
 
