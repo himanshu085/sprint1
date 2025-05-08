@@ -4,11 +4,12 @@
   
 
 ## Table of content
-1. [FullStack Architecture](#FullStack-Architecture)
-2. [Applications Installation](#Applications-Installation)
-3. [Running the Application](#Running-the-Application)
-4. [Contact Information](#Contact-Information)
-5. [References](#References)
+- [FullStack Architecture](#FullStack-Architecture)  
+- [Applications Installation](#Applications-Installation)  
+- [Running the Application](#Running-the-Application)  
+- [Contact Information](#Contact-Information)  
+- [References](#References)
+
 
 ## FullStack Architecture
 
