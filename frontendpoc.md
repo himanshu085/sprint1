@@ -106,6 +106,68 @@ http://localhost/pubic-ip:3000
 
 ---
 
+```
+sudo lsof -i :3000
+```
+
+```
+sudo ufw allow 3000/tcp
+sudo ufw reload
+```
+```
+sudo apt update
+sudo apt install nginx -y
+```
+```
+sudo ufw allow 80/tcp
+sudo ufw reload
+```
+
+```
+sudo nano /etc/nginx/sites-available/cloudninjahp
+```
+server {
+    listen 80;
+    server_name cloudninjahp.publicvm.com;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+```
+
+```
+sudo ln -s /etc/nginx/sites-available/cloudninjahp /etc/nginx/sites-enabled/
+```
+```
+sudo nginx -t
+sudo systemctl restart nginx
+```
+
+```
+nano package.json
+```
+```
+"start": "react-scripts start"
+```
+```
+"start": "HOST=0.0.0.0 DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start"
+```
+```
+nohup npm start > output.log 2>&1 &
+```
+http://cloudninjahp.publicvm.com
+```
+
+
+
+
+
 ## Contact Information
 | Name              | Email Address                                   |
 |-------------------|--------------------------------------------------|
