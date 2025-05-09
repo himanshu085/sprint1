@@ -125,6 +125,7 @@ sudo ufw reload
 
 ```sh
 sudo nano /etc/nginx/sites-available/cloudninjahp
+```
 
 ```sh
 server {
@@ -165,6 +166,8 @@ Replace with this
 ```
 ```sh
 nohup npm start > output.log 2>&1 &
+```
+
 ```sh
 http://cloudninjahp.publicvm.com
 ```
