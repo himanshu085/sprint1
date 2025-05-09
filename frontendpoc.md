@@ -125,7 +125,8 @@ sudo ufw reload
 
 ```sh
 sudo nano /etc/nginx/sites-available/cloudninjahp
-```
+
+```sh
 server {
     listen 80;
     server_name cloudninjahp.publicvm.com;
