@@ -153,9 +153,13 @@ sudo systemctl restart nginx
 ```sh
 nano package.json
 ```
+Find this line
+
 ```sh
 "start": "react-scripts start"
 ```
+Replace with this
+
 ```sh
 "start": "HOST=0.0.0.0 DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start"
 ```
