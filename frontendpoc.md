@@ -106,24 +106,24 @@ http://localhost/pubic-ip:3000
 
 ---
 
-```
+```sh
 sudo lsof -i :3000
 ```
 
-```
+```sh
 sudo ufw allow 3000/tcp
 sudo ufw reload
 ```
-```
+```sh
 sudo apt update
 sudo apt install nginx -y
 ```
-```
+```sh
 sudo ufw allow 80/tcp
 sudo ufw reload
 ```
 
-```
+```sh
 sudo nano /etc/nginx/sites-available/cloudninjahp
 ```
 server {
@@ -141,26 +141,26 @@ server {
 }
 ```
 
-```
+```sh
 sudo ln -s /etc/nginx/sites-available/cloudninjahp /etc/nginx/sites-enabled/
 ```
-```
+```sh
 sudo nginx -t
 sudo systemctl restart nginx
 ```
 
-```
+```sh
 nano package.json
 ```
-```
+```sh
 "start": "react-scripts start"
 ```
-```
+```sh
 "start": "HOST=0.0.0.0 DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start"
 ```
-```
+```sh
 nohup npm start > output.log 2>&1 &
-```
+```sh
 http://cloudninjahp.publicvm.com
 ```
 
